@@ -1,17 +1,26 @@
+***************
 scripts package
-===============
+***************
 
-Subpackages
------------
+The Scripts Package is the entry point into Faceswap.
 
-.. toctree::
+.. contents:: Contents
+   :local:
 
-   scripts.extract
+.. automodapi:: scripts.convert
+   :include-all-objects:
+   :no-inheritance-diagram:
 
-Module contents
----------------
+.. automodapi:: scripts.extract
+   :include-all-objects:
+   :no-inheritance-diagram:
 
-.. automodule:: scripts
-   :members:
-   :undoc-members:
-   :show-inheritance:
+.. automodapi:: scripts.fs_media
+   :include-all-objects:
+
+.. automodapi:: scripts.gui
+   :include-all-objects:
+
+.. automodapi:: scripts.train
+   :include-all-objects:
+   :no-inheritance-diagram:
